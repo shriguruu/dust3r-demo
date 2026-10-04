@@ -1,0 +1,56 @@
+# ==========================================
+# Large Model Weights (Exceeds GitHub 100MB limit)
+# ==========================================
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.onnx
+*.ckpt
+checkpoints/
+**/checkpoints/
+**/files/checkpoints/
+
+# ==========================================
+# 3D Model Exports, Large Pointclouds & Cache
+# ==========================================
+*.glb
+*.ply
+*.obj
+*.stl
+*.splat
+tmp/
+**/tmp/
+*.npy
+*.npz
+
+# ==========================================
+# Python Bytecode & Builds
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# IDE & System Files
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
